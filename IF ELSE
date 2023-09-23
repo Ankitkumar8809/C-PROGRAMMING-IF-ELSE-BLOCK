@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,r,s,young;
+clrscr();
+printf("enter age of ajay ram and shyam \n");
+scanf("%d%d%d",&a,&r,&s);
+if(a<r && a<s)
+{young=a;
+printf("Ajay is young\n");
+}
+if (r<a && r<s)
+{ young=r;
+printf("ram is young\n");
+ }
+ else if (s<a && s<r)
+{ young=s;
+ printf("shyam is young\n");
+ }
+ printf("and his age is%d",young);
+ getch();
+ }
